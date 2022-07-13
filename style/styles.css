@@ -1,0 +1,273 @@
+@import url('reset.css');
+
+
+@font-face {
+    font-family: Real Pen;
+    src: url('FontName.eot');
+    src: url('FontName.eot?#iefix') format('FontName-opentype'),
+  
+         url('Real Pen.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+body {
+   
+    text-align: center;
+}
+
+header{
+
+    background-color: #472c0a;
+    height:750px;
+    width: 100%;
+    position: relative;
+}
+
+.contaner{
+    width: 950px; 
+    
+    margin: auto;
+}
+
+nav{
+    position: relative;
+    top :60px;
+}
+
+header .logo{
+    margin-top: 40x;
+    margin-right: 30px;
+    width: 60px;
+    float :right;
+}
+
+ul{
+    position: relative;
+    left: -150px;
+}
+
+header ul li {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+header a {
+    font-family:cursive;
+    text-decoration: none;
+    padding :20px 15px;
+    color:#bdb76b;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px #000000;
+    font-size: 14px;
+}
+header a:hover{
+    color:#7e782f ;
+    border-bottom: 1px solid darkkhaki;
+    transition: 0.25s;
+}
+
+nav svg{
+   margin:0px 14px;
+   
+}
+
+ header h1{
+    font-size: 50px;
+    position: relative;
+    top:150px;
+    left:50px;
+    color:darkkhaki;
+    font-family:cursive;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+header h2{
+    font-size: 30px;
+    position: relative;
+    top:200px;
+    
+    color:darkkhaki;
+}
+
+
+
+
+	
+
+.demo{
+    position: relative;
+    top:260px;
+}
+
+
+div{
+    box-sizing: border-box;
+    
+}
+
+div .lorem{
+    
+    position: relative;
+    top:120px;
+    margin: 20px;
+    display: inline-block;
+    width: 25%;
+    height: 150px;
+    box-shadow: 6px 5px 20px -1px rgba(151,84,3,0.63);
+    border-radius: 5px;
+    
+}
+
+div .lorem:hover{
+    box-shadow: 9px 12px 26px 9px rgba(151,84,3,0.63);
+    transition: 1s;
+}
+
+.titleposts{
+    position: relative;
+    top:70px;
+    font-size: 30px;
+}
+
+
+section .posts{
+    position: relative;
+    top:120px;
+    width: 23%;
+    height: 260px;
+    box-shadow: 4px 3px 19px 1px #503615;
+    display: inline-block;
+    margin: 30px;
+    padding: 5px 5px;
+    border-radius: 15px;
+
+}
+
+section .posts:hover{
+    box-shadow: 4px 3px 19px 6px #503615;
+    transition: 0.5s;
+}
+
+.posts img{
+   
+    width: 200px;
+    height:200px;
+    border-radius: 10px;
+}
+
+.lorem  svg {
+    
+   font-size: 35px;
+   margin-top: 20px;
+   margin-left: 20px;
+   float: left;
+   color: rgb(70, 56, 21);
+   
+}
+
+.lorem h2{
+    position: absolute;
+    top:30px;
+    left: 100px;
+    font-size: 24pt;
+}
+
+.lorem h3{
+    position: absolute;
+    top:80px;
+    left: px;
+    font-size: 14pt;
+}
+
+article{
+    height: 300px;
+    margin-top: 200px;
+    background-image: url('../image/@𝐡𝐢𝐝𝐝𝐞𝐧𝐢𝐧𝐭𝐡𝐞𝐬𝐭𝐚𝐫𝐬.jpg');
+    background-size: cover;
+  background-attachment:fixed;}
+
+article .titlearticle{
+    font-size: 40px;
+    text-shadow: 6px 1px 13px #e44210;
+    color: white;
+    position: relative;
+    top:40px;
+    padding: 0px 10px;
+    cursor: pointer;
+
+}
+
+
+.titlearticle::before
+{
+  content:'  .: ';
+}
+
+.titlearticle::after
+{
+  content: '  :. ';
+}    
+  
+
+  article img{
+      width: 150px;
+      margin: 180px 40px;
+      opacity: 0.96;
+      box-shadow:rgba(70, 39, 2, 0.945); 
+  }
+  article img:hover {
+      opacity: 0.8;
+      transition: 0.5;
+  }
+.icons{
+    background-color: #502c03a4;
+    height: 40px;
+    margin-top: 150px;
+}
+.footer{
+    padding-top: 30px;
+    height: 70px;
+    background-color: rgba(70, 39, 2, 0.945);
+    color:burlywood;
+    font-size: 14pt;
+}
+
+footer svg {
+    margin-top: 10px;
+    padding :0px 20px;
+    font-size:25px;
+    opacity: 0.7;
+}
+
+footer svg :hover{
+    cursor: pointer;
+    
+}
+
+
+  section .titleposts{
+    font-size: 30px;
+    color:darkred;
+    
+}
+.posts h2{
+    font-size: 20px;
+    color: darkred;
+}
+.data{
+ padding-left: 8px;
+  color: rgb(107, 66, 20);
+  float: left;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.more{
+    color: rgb(75, 57, 19);
+    padding-right: 4px;
+    float: right;
+    text-decoration: none;
+    margin-top: 9px;
+}
